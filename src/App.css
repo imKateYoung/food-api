@@ -1,0 +1,44 @@
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Rakkas');
+
+.App{
+  font-family: "Rakkas";
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.App-submit{
+  margin-left: 0.2em;
+  height: auto;
+  font-family:'Rakkas';
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.App-input{
+  color:black;
+  font-weight: normal;
+  font-style: italic;
+  font-family: 'Rakkas';
+  font-size: 1.2rem;
+}
+
+.container{
+  background-color: brown;
+  margin: 5px;
+  border: cornsilk sold 5px;
+}
